@@ -1,12 +1,12 @@
 echo "A executar os testes ..."
 echo
 
-saida=$(echo -e "António Silva\n12\n5\n2010\n" | ./programa)
+saida=$(echo -e "António Silva\n12\n5\n2010\n" | ./a.out)
 esperado="+-------------------+
-| Dias de vida para |
-| António Silva     |
+| António Silva |
 +-------------------+
-| 4660 dias de vida |
+| faltam 88 dias |
+| para o aniversário |
 +-------------------+"
 if [ "$saida" != "$esperado" ]; then
     echo "Teste falhou: a saída do programa é diferente do esperado"
