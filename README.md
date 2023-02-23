@@ -1,13 +1,12 @@
-# 03 - UFCD-0782 - F7 - Ex1
+# 03 - UFCD-0782 - F7 - Ex2
 Este exercício é escrito em C, será testado com o make e um script bash.
 
 ### O Exercício
 Escreva um programa que leia o nome de um utilizador e a sua idade no formato Dia, Mês e
-Ano. Em seguida, apresente o nome do utilizador e os dias de vida que este tem.
-
+Ano. Em seguida, apresente o nome do utilizador e os dias que faltam para o seu
+aniversário.
 
 ### Saída Esperada:
-    
 O seu nome:  
 António Silva ↵  
 Dia de nascimento:  
@@ -17,11 +16,12 @@ Mês de nascimento:
 Ano de nascimento:  
 2010 ↵  
 +-------------------+  
-| Dias de vida para |  
 | António Silva     |  
 +-------------------+  
-| 4660 dias de vida |  
-+-------------------+   
+| faltam 88 dias    |  
+| para o aniversário|  
++-------------------+  
+ 
 
 
 ### Notas
